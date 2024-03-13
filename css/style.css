@@ -1,31 +1,50 @@
 .ms_header {
-    background-color: aqua;
-    /* debug */
-    height: 100px;
+  background-color: aqua;
+  /* debug */
+  height: 100px;
 }
 
 .ms_jumbo {
-    background-color: lightgreen;
-    /* debug */
-    height: 400px;
+  background-color: lightgreen;
+  /* debug */
+  height: 400px;
 }
 
 .ms_grid {
-    background-color: lightskyblue;
-    /* debug */
-    padding: 50px;
+  background-color: lightskyblue;
+  /* debug */
+  padding: 50px;
 }
 
 .ms_grid-inside {
-    background-color: lightcoral;
-    /* debug */
-    height: 180px;
+  background-color: lightcoral;
+  /* debug */
+  height: 180px;
 }
 
 .ms_about {
-    background-color: lightpink;
+  background-color: lightpink;
 }
 
 .ms_abouts {
-    background-color: aqua;
+  background-color: aqua;
+}
+
+.ms_form {
+  background-color: lightcoral;
+  /* debug */
+  height: 500px;
+}
+
+.ms_footer {
+  background-color: gray;
+  /* debug */
+  height: 200px;
+}
+
+.ms_footers {
+  background-color: black;
+  color: white;
+  /* debug */
+  height: 100px;
 }
