@@ -1,3 +1,31 @@
 .ms_header {
-    
+    background-color: aqua;
+    /* debug */
+    height: 100px;
+}
+
+.ms_jumbo {
+    background-color: lightgreen;
+    /* debug */
+    height: 400px;
+}
+
+.ms_grid {
+    background-color: lightskyblue;
+    /* debug */
+    padding: 50px;
+}
+
+.ms_grid-inside {
+    background-color: lightcoral;
+    /* debug */
+    height: 180px;
+}
+
+.ms_about {
+    background-color: lightpink;
+}
+
+.ms_abouts {
+    background-color: aqua;
 }
