@@ -23,6 +23,10 @@
   height: auto;
 }
 
+.ms_social a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .ms_small-container {
     max-width: 600px;
@@ -50,11 +54,11 @@
   font-size: 20px;
 }
 /* HEADER */
-.ms_header {
-  /* background-color: #19BC9B; */
-  /* debug */
-  /* height: 80px; */
-}
+/* .ms_header {
+  background-color: #19BC9B;
+  debug
+  height: 80px;
+} */
 
 /* MAIN */
 
@@ -103,4 +107,8 @@
 
 .white {
   color: white;
+}
+
+.lightgreen {
+  color: #19BC9B;
 }
