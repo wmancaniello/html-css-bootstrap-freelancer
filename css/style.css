@@ -1,50 +1,66 @@
+/* COMMON */
+.ms_primary-bg {
+  background-color: aquamarine;
+  /* debug */
+}
+
+.ms_small-container {
+    width: 80%;
+    max-width: 450px;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+    min-height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .ms_small-container {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ms_small-container {
+        max-width: 800px;
+    }
+}
+
+/* HEADER */
 .ms_header {
   background-color: aqua;
   /* debug */
-  height: 100px;
+  height: 80px;
 }
 
-.ms_jumbo {
-  background-color: lightgreen;
+/* MAIN */
+
+/* Hero section */
+.ms_hero-container {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
   /* debug */
-  height: 400px;
+  border: 1px solid black;
 }
 
-.ms_grid {
-  background-color: lightskyblue;
+/* Portfolio section */
+.ms_portfolio-item {
   /* debug */
-  padding: 50px;
+  min-height: 200px;
+  background-color: lightblue;
+  border: 1px solid black;
 }
 
-.ms_grid-inside {
-  background-color: lightcoral;
-  /* debug */
-  height: 180px;
+
+/* FOOTER */
+.ms_footer-top {
+    background-color: black;
+    /* debug */
+    min-height: 200px;
 }
 
-.ms_about {
-  background-color: lightpink;
-}
-
-.ms_abouts {
-  background-color: aqua;
-}
-
-.ms_form {
-  background-color: lightcoral;
-  /* debug */
-  height: 500px;
-}
-
-.ms_footer {
-  background-color: gray;
-  /* debug */
-  height: 200px;
-}
-
-.ms_footers {
-  background-color: black;
-  color: white;
-  /* debug */
-  height: 100px;
+.ms_footer-bottom {
+    background-color: lightgrey;
+    /* debug */
+    min-height: 100px
 }
