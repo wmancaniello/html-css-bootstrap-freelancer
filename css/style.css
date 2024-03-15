@@ -54,11 +54,15 @@
   font-size: 20px;
 }
 /* HEADER */
-/* .ms_header {
-  background-color: #19BC9B;
-  debug
-  height: 80px;
-} */
+.fix-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  /* debug */
+  /* background-color: #19BC9B;
+  height: 80px; */
+}
 
 /* MAIN */
 .star-line {
@@ -102,6 +106,10 @@
 .ms_btn {
   background-color: #19bc9b;
   border: 0;
+}
+
+.ms_btn:hover {
+  background-color: #19bc9b;
 }
 
 .ms_bg-black {
